@@ -23,7 +23,7 @@
 - If you did not finish your container properly, type "$ docker container stop name_00" where "name_00" is the container's name you made when creating the container.
   - When you cannot remember the name correctly, you can list all running containers by using "$ docker container ls"
 
-## Tip
+## Tips
 * When you like to keep the server computer to run even after disconnected from your local computer
   1. Run "$ screen" just after the second step for < Running > and continue next steps
   1. Push (Ctrl + a, d) at any time when you want to disconnect from the ssh
