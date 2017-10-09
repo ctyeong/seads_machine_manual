@@ -3,8 +3,8 @@
 ## Running
 1. Run "$ ssh user_id@ip_address"
 1. Enter password
-1. Run tensorflow
-  * (without Jupyter, direct to shell prompt)
+1. Run Tensorflow
+  * (without Jupyter, directly to shell prompt)
     1. Run "$ nvidia-docker run -it -p port1:8888 -p port2:6006 --name name_00 -v path:/data tf:seads /bin/bash"
       * Use the allocated port numbers for "port1" and "port2"
       * Use a distinguishable name for your created container instead of "name_00" (For each run, the name should be different)  
@@ -24,9 +24,9 @@
   - When you cannot remember the name correctly, you can list all running containers by using "$ docker container ls"
 
 ## Tip
-1. When you like to keep the server computer to run even after diconnected from your local computer
+* When you like to keep the server computer to run even after disconnected from your local computer
   1. Run "$ screen" just after the second step for < Running > and continue next steps
-  1. Push (Cntrl + a, d) at any time when you want to disconnect from the ssh
+  1. Push (Ctrl + a, d) at any time when you want to disconnect from the ssh
   1. Run "$ screen -r" just after the second step for < Running >, when you want to return to the work
 
-1. Large HDD storage is available in "/data"
+* Large HDD storage is available in "/data"
