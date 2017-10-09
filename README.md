@@ -1,4 +1,4 @@
-# Manual  
+# SEADS Machine Manual  
 
 ## Running
 1. Run "$ ssh user_id@ip_address"
